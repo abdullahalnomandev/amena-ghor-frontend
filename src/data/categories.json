@@ -1,0 +1,7 @@
+[
+  { "id": "bouquets", "name": { "bn": "ফুলের তোড়া", "en": "Flower Bouquets" }, "icon": "🌹" },
+  { "id": "vases", "name": { "bn": "ফুলদানি", "en": "Flower Vases" }, "icon": "🏺" },
+  { "id": "wall", "name": { "bn": "ওয়াল ডেকোরেশন", "en": "Wall Decoration" }, "icon": "🖼️" },
+  { "id": "table", "name": { "bn": "টেবিল ডেকোরেশন", "en": "Table Decoration" }, "icon": "🪴" },
+  { "id": "gifts", "name": { "bn": "গিফট সেট", "en": "Gift Sets" }, "icon": "🎁" }
+]

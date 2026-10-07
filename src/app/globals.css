@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0f172a;
+  --color-ink-muted: #475569;
+  --color-blush: #f0f7ff;
+  --color-blush-dark: #dbeafe;
+  --color-rose: #2563eb;
+  --color-rose-dark: #1e3a8a;
+  --color-rose-light: #eff6ff;
+  --color-leaf: #059669;
+  --color-leaf-light: #ecfdf5;
+  --color-gold: #d97706;
+  --color-gold-light: #fffbeb;
+  --color-paper: #f8fafc;
+  --color-paper-card: #ffffff;
+  
+  --font-sans: "Hind Siliguri", "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-serif: "Playfair Display", "Noto Serif Bengali", Georgia, serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Royal Blue Glassmorphism & Aesthetics */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(37, 99, 235, 0.15);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  box-shadow: 0 10px 30px -10px rgba(30, 58, 138, 0.08);
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at 70% 20%, rgba(219, 234, 254, 0.6) 0%, rgba(240, 247, 255, 0.9) 50%, rgba(248, 250, 252, 1) 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #1e40af 0%, #2563eb 50%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.badge-gold {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+  color: #ffffff;
+}
+
+.badge-rose {
+  background: linear-gradient(135deg, #2563eb 0%, #1e3a8a 100%);
+  color: #ffffff;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 15px rgba(37, 99, 235, 0.3); }
+  50% { shadow: 0 0 25px rgba(37, 99, 235, 0.6); }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s infinite;
+}
+
+.hover-lift {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 20px 40px -15px rgba(30, 58, 138, 0.18);
+}
+
+.img-zoom {
+  transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.group:hover .img-zoom {
+  transform: scale(1.08);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f7ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #93c5fd;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "flower-001",
+    "slug": "artificial-rose-bouquet",
+    "name": {
+      "bn": "প্রিমিয়াম সিল্ক গোলাপ তোড়া",
+      "en": "Royal Velvet Silk Rose Bouquet"
+    },
+    "description": {
+      "bn": "ঘর ও ড্রয়িং রুমের সৌন্দর্য দ্বিগুণ করতে রয়্যাল ক্লাসিক সিল্ক গোলাপের তোড়া। কখনো শুষ্ক হবে না, রঙের উজ্জ্বলতা থাকবে আজীবন।",
+      "en": "Handcrafted premium silk rose bouquet that never wilts. Perfect centerpiece for living rooms and wedding gifts."
+    },
+    "price": 850,
+    "oldPrice": 1150,
+    "category": "bouquets",
+    "images": [
+      "https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "featured": true,
+    "available": true,
+    "rating": 4.9,
+    "reviewsCount": 38,
+    "badge": { "bn": "সেরা বিক্রেতা", "en": "Best Seller" },
+    "features": [
+      { "bn": "১২টি প্রিমিয়াম রয়্যাল সিল্ক গোলাপ", "en": "12 Premium Royal Silk Roses" },
+      { "bn": "জল ও ধুলা প্রতিরোধী, সহজে ওয়াশযোগ্য", "en": "Water-resistant & Easy to Clean" },
+      { "bn": "আজীবন স্থায়িত্ব ও উজ্জ্বল রঙ", "en": "Long-lasting Color & Shine" }
+    ]
+  },
+  {
+    "id": "flower-002",
+    "slug": "ceramic-flower-vase",
+    "name": {
+      "bn": "হ্যান্ডক্রাফটেড স্ক্যান্ডিনেভিয়ান সিরামিক ফুলদানি",
+      "en": "Nordic Luxury Ceramic Vase"
+    },
+    "description": {
+      "bn": "মার্জিত গোল্ডেন স্ট্রাইপ সিরামিক ফুলদানি। ডাইনিং টেবিল বা শোকেসের লুক এক মুহূর্তে বদলে দেবে।",
+      "en": "Minimalist Nordic style ceramic vase with subtle gold detailing. Brings sophisticated elegance to any space."
+    },
+    "price": 1200,
+    "oldPrice": 1500,
+    "category": "vases",
+    "images": [
+      "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1612196808214-b7e239e5f6b7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "featured": true,
+    "available": true,
+    "rating": 4.8,
+    "reviewsCount": 24,
+    "badge": { "bn": "নতুন ডিজাইন", "en": "New Arrival" },
+    "features": [
+      { "bn": "উচ্চমানের টেকসই হ্যান্ডক্রাফটেড সিরামিক", "en": "High-fired Handcrafted Ceramic" },
+      { "bn": "মেট ফিনিশ ও গোল্ড টেক্সচার", "en": "Matte Finish with Gold Accents" },
+      { "bn": "যেকোনো ফুল বা প্যাম্পাস গ্রাসের জন্য পারফেক্ট", "en": "Ideal for Flowers & Dried Grass" }
+    ]
+  },
+  {
+    "id": "decor-001",
+    "slug": "wall-hanging-floral-frame",
+    "name": {
+      "bn": "৩ডি গ্লাস ফ্লোরাল ওয়াল ফ্রেম",
+      "en": "3D Botanical Floral Wall Art Frame"
+    },
+    "description": {
+      "bn": "দেয়ালের শূন্যতা পূরণ করতে ৩ডি আর্টিফিশিয়াল ফ্লোরাল ফ্রেম। ঘরের প্রতিটি কোণকে করে তুলবে প্রাণবন্ত।",
+      "en": "Breathtaking 3D artificial floral wall installation set in a golden frame. Modern home aesthetic."
+    },
+    "price": 1500,
+    "oldPrice": 1900,
+    "category": "wall",
+    "images": [
+      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80"
+    ],
+    "featured": true,
+    "available": true,
+    "rating": 5.0,
+    "reviewsCount": 42,
+    "badge": { "bn": "হট কালেকশন", "en": "Hot Deal" },
+    "features": [
+      { "bn": "প্রিমিয়াম গোল্ড মেটাল ফ্রেম", "en": "Premium Golden Metal Frame" },
+      { "bn": "৩ডি এম্বসড সিল্ক চেরি ব্লসম", "en": "3D Embossed Silk Cherry Blossoms" },
+      { "bn": "সহজে দেয়ালে ঝুলানোর হুক অন্তর্ভুক্ত", "en": "Easy Wall Mount Hardware Included" }
+    ]
+  },
+  {
+    "id": "flower-003",
+    "slug": "luxury-white-orchid-pot",
+    "name": {
+      "bn": "রয়্যাল হোয়াইট অর্কিড পট",
+      "en": "Royal White Phalaenopsis Orchid Pot"
+    },
+    "description": {
+      "bn": "অত্যন্ত বাস্তবিক দেখতে হোয়াইট ফ্যালেনোপসিস অর্কিড গাছ গোল্ডেন সিরামিক পাত্র সহ। নিখুঁত লাক্সারি টাচ।",
+      "en": "Ultra-realistic white phalaenopsis orchid in a matte ceramic pot with gold rim. Timeless elegance."
+    },
+    "price": 1850,
+    "oldPrice": 2300,
+    "category": "table",
+    "images": [
+      "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "featured": true,
+    "available": true,
+    "rating": 4.9,
+    "reviewsCount": 19,
+    "badge": { "bn": "লাক্সারি আইটেম", "en": "Luxury Pick" },
+    "features": [
+      { "bn": "রিয়েল-টাচ সিল্ক ফাইবার মেটেরিয়াল", "en": "Real-Touch Silk Petals" },
+      { "bn": "গোল্ডেন মার্বেল সিরামিক পট", "en": "Golden Marble Ceramic Pot" }
+    ]
+  },
+  {
+    "id": "decor-002",
+    "slug": "natural-pampas-grass-set",
+    "name": {
+      "bn": "ন্যাচারাল গোল্ডেন প্যাম্পাস গ্রাস সেট",
+      "en": "Fluffy Golden Pampas Grass Decor Set"
+    },
+    "description": {
+      "bn": "বোহো স্টাইলের ফ্লাফি প্যাম্পাস গ্রাস। কর্নার ও টেবিল সাজাতে দারুণ পছন্দ।",
+      "en": "Boho chic natural-look fluffy pampas grass stems for minimalist cozy corner decor."
+    },
+    "price": 950,
+    "oldPrice": 1250,
+    "category": "table",
+    "images": [
+      "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=800&q=80"
+    ],
+    "featured": false,
+    "available": true,
+    "rating": 4.7,
+    "reviewsCount": 15,
+    "features": [
+      { "bn": "১০ পিস স্টেম বান্ডেল", "en": "10 Pcs Stem Bundle" },
+      { "bn": "ঝড়ে পড়ার ভয় নেই", "en": "Non-Shedding High Grade Material" }
+    ]
+  },
+  {
+    "id": "flower-004",
+    "slug": "pastel-tulip-bundle",
+    "name": {
+      "bn": "প্যাস্টেল ডাচ টিউলিপ বান্ডেল",
+      "en": "Pastel Dutch Tulip Spring Arrangement"
+    },
+    "description": {
+      "bn": "বসন্তের সজীবতায় ভরপুর নরম গোলাপি ও ক্রিম টিউলিপের বান্ডেল।",
+      "en": "Soft pastel pink and cream Dutch tulip stems. Brightens up study desks and bedside tables."
+    },
+    "price": 1100,
+    "oldPrice": 1400,
+    "category": "bouquets",
+    "images": [
+      "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=800&q=80"
+    ],
+    "featured": true,
+    "available": true,
+    "rating": 4.9,
+    "reviewsCount": 31,
+    "badge": { "bn": "জনপ্রিয়", "en": "Popular" },
+    "features": [
+      { "bn": "১০টি সজীব টেক্সচারের টিউলিপ", "en": "10 Lifelike Textured Tulips" },
+      { "bn": "ফ্লেক্সিবল ওয়াটারপ্রুফ স্টেম", "en": "Flexible Waterproof Stems" }
+    ]
+  }
+]
